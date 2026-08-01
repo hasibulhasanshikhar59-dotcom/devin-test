@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vehicle Price Comparison</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="vehicles.css" />
+  </head>
+  <body>
+    <main class="card card--wide">
+      <h1>Vehicle Price Comparison</h1>
+      <p>Enter details for five vehicles to find the most and least expensive.</p>
+
+      <form id="vehicle-form" novalidate>
+        <div id="vehicle-fields"></div>
+        <button type="submit">Compare</button>
+      </form>
+
+      <section id="result" class="result" hidden></section>
+    </main>
+
+    <script src="vehicles.js"></script>
+  </body>
+</html>
